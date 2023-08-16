@@ -69,6 +69,7 @@ static Ihandle *throttleSetupUI() {
         setFromParameter(outboundCheckbox, "VALUE", NAME"-outbound");
         setFromParameter(chanceInput, "VALUE", NAME"-chance");
         setFromParameter(frameInput, "VALUE", NAME"-frame");
+        setFromParameter(dropThrottledCheckbox, "VALUE", NAME"-drop");
     }
 
     return throttleControlsBox;
